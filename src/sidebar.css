@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.sidebar {
+    height: 990px;
+    width: 240px;
+    border-right: 1px solid #F2F2F2;
+}
+
+.container {
+    width: 74%;
+    margin: 0 auto;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.container .home img {
+    padding: 32px 11px 0 0;
+}
+
+.home h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #304858;
+    margin: 34px 0 0 0;
+}
+
+.menu h4 {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 87px 0 0 0;
+    color: #3629B7;
+}
+
+.home-page {
+    display: flex;
+    margin-top: 30px;
+}
+
+.home-page p {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #838383;
+    margin-top: 3px;
+}
+
+.home-page img {
+    padding-right: 21px;
+}
+
+.service-page {
+    display: flex;
+    margin-top: 30px;
+}
+
+.service-page p {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #838383;
+    margin-top: 3px;
+}
+
+.service-page img {
+    padding-right: 25px;
+}
+
+
+.home1-page {
+    display: flex;
+    margin-top: 30px;
+}
+
+.home1-page p {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #838383;
+    margin-top: 3px;
+}
+
+.home1-page img {
+    padding-right: 24px;
+}
+
+.loops h2 {
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 145px;
+    color: #3629B7;
+}
+
+.loopBlue {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.loopBlue p {
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #838383;
+
+}
+
+.loopBlue img {
+    margin-right: 14px;
+}
+
+.loopBlue1 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.loopBlue1 p {
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #838383;
+
+}
+
+.loopBlue1 img {
+    margin-right: 14px;
+}
+
+.card {
+    width: 183px;
+    height: 63px;
+    background: #F9FAFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.card .man {
+    margin: 15px;
+}
+
+.card h5 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 50px;
+    color: #591AED;
+}
+
+.card .next {
+    width: 10px;
+    height: 7px;
+}

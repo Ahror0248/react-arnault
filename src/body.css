@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.body {
+    height: 902px;
+    width: 1665px;
+    background-color: #FBFCFF;
+    padding-top: 43px;
+}
+
+.all-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 102px;
+    background: #FEFEFF;
+    box-shadow: 0px 100px 80px rgba(41, 72, 152, 0.05), 
+    0 64.8148px 46.8519px rgba(41, 72, 152, 0.037963), 
+    0 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704), 
+    0 20px 13px rgba(41, 72, 152, 0.025), 
+    0 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296), 
+    0 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+    border-radius: 10px;
+    /* margin-left: 115px; */
+    padding: 26px 38px 17px 34px;
+}
+
+.boxes {
+    width: 100px;
+    height: 102px;
+    background: #FEFEFF;
+    box-shadow: 0px 100px 80px rgba(41, 72, 152, 0.05), 
+    0 64.8148px 46.8519px rgba(41, 72, 152, 0.037963), 
+    0 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704), 
+    0 20px 13px rgba(41, 72, 152, 0.025), 
+    0 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296), 
+    0 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+    border-radius: 10px;
+    margin-left: 120px;
+    padding: 26px 38px 17px 34px;
+}
+
+.boxess {
+    width: 100px;
+    height: 102px;
+    background: #FEFEFF;
+    box-shadow: 0px 100px 80px rgba(41, 72, 152, 0.05), 
+    0 64.8148px 46.8519px rgba(41, 72, 152, 0.037963), 
+    0 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704), 
+    0 20px 13px rgba(41, 72, 152, 0.025), 
+    0 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296), 
+    0 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+    border-radius: 10px;
+    margin-left: 120px;
+    padding: 26px 38px 17px 17px;
+}
+
+.car {
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.car h1 {
+    font-size: 60px;
+    line-height: 56px;
+    font-weight: 300;
+    color: #000000;
+    margin-left: 58px;
+}
+
+.car sup {
+    font-size: 19px;
+    line-height: 19px;
+    margin-top: 30px;   
+}
+
+.cards {
+    width: 50px;
+    height: 50px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FEFEFF;
+    box-shadow: 0px 100px 80px rgba(41, 72, 152, 0.05), 
+    0 64.8148px 46.8519px rgba(41, 72, 152, 0.037963), 
+    0 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704), 
+    0 20px 13px rgba(41, 72, 152, 0.025), 
+    0 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296), 
+    0 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+    border-radius: 10px;
+}
+
+.cards1 {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FEFEFF;
+    box-shadow: 0px 100px 80px rgba(41, 72, 152, 0.05), 
+    0 64.8148px 46.8519px rgba(41, 72, 152, 0.037963), 
+    0 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704), 
+    0 20px 13px rgba(41, 72, 152, 0.025), 
+    0 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296), 
+    0 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+    border-radius: 10px;
+}
+
+.real-car{
+    mix-blend-mode: multiply;
+}
+
+.real-car img {
+    margin-top: 50px;
+    margin-left: 18px;
+}
+
+.all-car {
+    display: flex;
+    /* align-items: center;  */
+}
+
+.skills {
+    flex-direction: column;
+}
+
+.cat {
+    margin-top: 110px;
+    display: flex;
+    margin-left: 188px;
+}
+
+.cat-card {
+    width: 60px;
+    height: 60px;
+    background: #fae7ee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.cat-text h1 {
+    font-weight: 900;
+    font-size: 22.6885px;
+    line-height: 29px;
+
+    color: #1D2C3C;
+}
+
+.cat-text p {
+    font-size: 20px;
+    line-height: 22px;
+    color: #9BA6B2;
+}
+
+
+.moon {
+    margin-top: 60px;
+    display: flex;
+    margin-left: 188px;
+}
+
+.moon-card {
+    width: 60px;
+    height: 60px;
+    background: #eeeafe;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.moon-text h1 {
+    font-weight: 900;
+    font-size: 22.6885px;
+    line-height: 29px;
+
+    color: #1D2C3C;
+}
+
+.moon-text p {
+    font-size: 20px;
+    line-height: 22px;
+    color: #9BA6B2;
+}
+
+
+.trophy {
+    margin-top: 60px;
+    display: flex;
+    margin-left: 188px;
+}
+
+.trophy-card {
+    width: 60px;
+    height: 60px;
+    background: #e8ebf0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.trophy-text h1 {
+    font-weight: 900;
+    font-size: 22.6885px;
+    line-height: 29px;
+
+    color: #1D2C3C;
+}
+
+.trophy-text p {
+    font-size: 20px;
+    line-height: 22px;
+    color: #9BA6B2;
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar {
+    width: 1665px;
+    height: fit-content;
+    background: #FBFCFF;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.search input {
+    width: 517px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 51px;
+    margin: 24px 0 24px 45px;
+
+    
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search input::placeholder {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.search {
+    position: relative;
+}
+
+.search img {
+    position: absolute;
+    top: 37%;
+    left: 10%;
+}
+
+.down input {
+    width: 310px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    padding-left: 19px;
+    margin-left: 34px;
+}
+
+.down input::placeholder {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.down input:focus {
+    outline: none;
+}
+
+.down {
+    position: relative;
+}
+
+.down img {
+    position: absolute;
+    left: 90%;
+    top: 45%;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.notification {
+    margin-left: 450px;
+}
+
+.img-icon {
+    margin-left: 45px;
+}
+
+.img-man {
+    margin-left: 45px;
+    border-radius: 50%;
+}
+
